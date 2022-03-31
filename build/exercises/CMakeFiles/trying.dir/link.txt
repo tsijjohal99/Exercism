@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libtrying.a CMakeFiles/trying.dir/Leap/leap.cpp.obj CMakeFiles/trying.dir/ReverseString/reverseString.cpp.obj CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe libtrying.a

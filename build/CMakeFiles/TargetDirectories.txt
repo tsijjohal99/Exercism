@@ -1,0 +1,8 @@
+C:/msys64/home/local_admin/Exercisim/build/CMakeFiles/edit_cache.dir
+C:/msys64/home/local_admin/Exercisim/build/CMakeFiles/rebuild_cache.dir
+C:/msys64/home/local_admin/Exercisim/build/exercises/CMakeFiles/trying.dir
+C:/msys64/home/local_admin/Exercisim/build/exercises/CMakeFiles/edit_cache.dir
+C:/msys64/home/local_admin/Exercisim/build/exercises/CMakeFiles/rebuild_cache.dir
+C:/msys64/home/local_admin/Exercisim/build/src/CMakeFiles/Exercism.dir
+C:/msys64/home/local_admin/Exercisim/build/src/CMakeFiles/edit_cache.dir
+C:/msys64/home/local_admin/Exercisim/build/src/CMakeFiles/rebuild_cache.dir

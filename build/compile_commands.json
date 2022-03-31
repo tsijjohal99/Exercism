@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/msys64/home/local_admin/Exercisim/build/exercises",
+  "command": "/C/msys64/mingw64/bin/g++.exe  -I/C/msys64/home/local_admin/Exercisim/exercises/{CMAKE_CURRENT_SOURCE_DIR} -g -std=gnu++20 -o CMakeFiles/trying.dir/Leap/leap.cpp.obj -c /C/msys64/home/local_admin/Exercisim/exercises/Leap/leap.cpp",
+  "file": "C:/msys64/home/local_admin/Exercisim/exercises/Leap/leap.cpp"
+},
+{
+  "directory": "C:/msys64/home/local_admin/Exercisim/build/exercises",
+  "command": "/C/msys64/mingw64/bin/g++.exe  -I/C/msys64/home/local_admin/Exercisim/exercises/{CMAKE_CURRENT_SOURCE_DIR} -g -std=gnu++20 -o CMakeFiles/trying.dir/ReverseString/reverseString.cpp.obj -c /C/msys64/home/local_admin/Exercisim/exercises/ReverseString/reverseString.cpp",
+  "file": "C:/msys64/home/local_admin/Exercisim/exercises/ReverseString/reverseString.cpp"
+},
+{
+  "directory": "C:/msys64/home/local_admin/Exercisim/build/exercises",
+  "command": "/C/msys64/mingw64/bin/g++.exe  -I/C/msys64/home/local_admin/Exercisim/exercises/{CMAKE_CURRENT_SOURCE_DIR} -g -std=gnu++20 -o CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj -c /C/msys64/home/local_admin/Exercisim/exercises/SpaceAge/spaceAge.cpp",
+  "file": "C:/msys64/home/local_admin/Exercisim/exercises/SpaceAge/spaceAge.cpp"
+},
+{
+  "directory": "C:/msys64/home/local_admin/Exercisim/build/src",
+  "command": "/C/msys64/mingw64/bin/g++.exe  -I/C/msys64/home/local_admin/Exercisim/exercises/{CMAKE_CURRENT_SOURCE_DIR} -g -std=gnu++20 -o CMakeFiles/Exercism.dir/main.cpp.obj -c /C/msys64/home/local_admin/Exercisim/src/main.cpp",
+  "file": "C:/msys64/home/local_admin/Exercisim/src/main.cpp"
+}
+]

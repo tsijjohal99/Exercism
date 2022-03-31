@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libexercises.a CMakeFiles/exercises.dir/leap/leap.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe libexercises.a
