@@ -8,6 +8,8 @@ add_library(
     SpaceAge/space_age.cpp
     Triangle/triangle.h
     Triangle/triangle.cpp
+    Grains/grains.h
+    Grains/grains.cpp
 )
 
 target_include_directories(trying PUBLIC "{CMAKE_CURRENT_SOURCE_DIR}")

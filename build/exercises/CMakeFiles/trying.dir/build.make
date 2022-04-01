@@ -125,12 +125,27 @@ exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trying.dir/Triangle/triangle.cpp.s"
 	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/msys64/home/local_admin/Exercisim/exercises/Triangle/triangle.cpp -o CMakeFiles/trying.dir/Triangle/triangle.cpp.s
 
+exercises/CMakeFiles/trying.dir/Grains/grains.cpp.obj: exercises/CMakeFiles/trying.dir/flags.make
+exercises/CMakeFiles/trying.dir/Grains/grains.cpp.obj: ../exercises/Grains/grains.cpp
+exercises/CMakeFiles/trying.dir/Grains/grains.cpp.obj: exercises/CMakeFiles/trying.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/msys64/home/local_admin/Exercisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object exercises/CMakeFiles/trying.dir/Grains/grains.cpp.obj"
+	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT exercises/CMakeFiles/trying.dir/Grains/grains.cpp.obj -MF CMakeFiles/trying.dir/Grains/grains.cpp.obj.d -o CMakeFiles/trying.dir/Grains/grains.cpp.obj -c /C/msys64/home/local_admin/Exercisim/exercises/Grains/grains.cpp
+
+exercises/CMakeFiles/trying.dir/Grains/grains.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trying.dir/Grains/grains.cpp.i"
+	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/msys64/home/local_admin/Exercisim/exercises/Grains/grains.cpp > CMakeFiles/trying.dir/Grains/grains.cpp.i
+
+exercises/CMakeFiles/trying.dir/Grains/grains.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trying.dir/Grains/grains.cpp.s"
+	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/msys64/home/local_admin/Exercisim/exercises/Grains/grains.cpp -o CMakeFiles/trying.dir/Grains/grains.cpp.s
+
 # Object files for target trying
 trying_OBJECTS = \
 "CMakeFiles/trying.dir/Leap/leap.cpp.obj" \
 "CMakeFiles/trying.dir/ReverseString/reverseString.cpp.obj" \
 "CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj" \
-"CMakeFiles/trying.dir/Triangle/triangle.cpp.obj"
+"CMakeFiles/trying.dir/Triangle/triangle.cpp.obj" \
+"CMakeFiles/trying.dir/Grains/grains.cpp.obj"
 
 # External object files for target trying
 trying_EXTERNAL_OBJECTS =
@@ -139,9 +154,10 @@ exercises/libtrying.a: exercises/CMakeFiles/trying.dir/Leap/leap.cpp.obj
 exercises/libtrying.a: exercises/CMakeFiles/trying.dir/ReverseString/reverseString.cpp.obj
 exercises/libtrying.a: exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj
 exercises/libtrying.a: exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj
+exercises/libtrying.a: exercises/CMakeFiles/trying.dir/Grains/grains.cpp.obj
 exercises/libtrying.a: exercises/CMakeFiles/trying.dir/build.make
 exercises/libtrying.a: exercises/CMakeFiles/trying.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/msys64/home/local_admin/Exercisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libtrying.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/msys64/home/local_admin/Exercisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libtrying.a"
 	cd /C/msys64/home/local_admin/Exercisim/build/exercises && $(CMAKE_COMMAND) -P CMakeFiles/trying.dir/cmake_clean_target.cmake
 	cd /C/msys64/home/local_admin/Exercisim/build/exercises && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trying.dir/link.txt --verbose=$(VERBOSE)
 

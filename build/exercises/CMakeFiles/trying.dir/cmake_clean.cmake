@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/trying.dir/Grains/grains.cpp.obj"
+  "CMakeFiles/trying.dir/Grains/grains.cpp.obj.d"
   "CMakeFiles/trying.dir/Leap/leap.cpp.obj"
   "CMakeFiles/trying.dir/Leap/leap.cpp.obj.d"
   "CMakeFiles/trying.dir/ReverseString/reverseString.cpp.obj"

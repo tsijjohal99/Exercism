@@ -130,6 +130,30 @@ trying/fast:
 	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/build
 .PHONY : trying/fast
 
+Grains/grains.obj: Grains/grains.cpp.obj
+.PHONY : Grains/grains.obj
+
+# target to build an object file
+Grains/grains.cpp.obj:
+	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/Grains/grains.cpp.obj
+.PHONY : Grains/grains.cpp.obj
+
+Grains/grains.i: Grains/grains.cpp.i
+.PHONY : Grains/grains.i
+
+# target to preprocess a source file
+Grains/grains.cpp.i:
+	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/Grains/grains.cpp.i
+.PHONY : Grains/grains.cpp.i
+
+Grains/grains.s: Grains/grains.cpp.s
+.PHONY : Grains/grains.s
+
+# target to generate assembly for a file
+Grains/grains.cpp.s:
+	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/Grains/grains.cpp.s
+.PHONY : Grains/grains.cpp.s
+
 Leap/leap.obj: Leap/leap.cpp.obj
 .PHONY : Leap/leap.obj
 
@@ -235,6 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... trying"
+	@echo "... Grains/grains.obj"
+	@echo "... Grains/grains.i"
+	@echo "... Grains/grains.s"
 	@echo "... Leap/leap.obj"
 	@echo "... Leap/leap.i"
 	@echo "... Leap/leap.s"

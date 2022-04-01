@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/msys64/home/local_admin/Exercisim/exercises/Grains/grains.cpp" "exercises/CMakeFiles/trying.dir/Grains/grains.cpp.obj" "gcc" "exercises/CMakeFiles/trying.dir/Grains/grains.cpp.obj.d"
   "C:/msys64/home/local_admin/Exercisim/exercises/ReverseString/reverseString.cpp" "exercises/CMakeFiles/trying.dir/ReverseString/reverseString.cpp.obj" "gcc" "exercises/CMakeFiles/trying.dir/ReverseString/reverseString.cpp.obj.d"
   "C:/msys64/home/local_admin/Exercisim/exercises/SpaceAge/space_age.cpp" "exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj" "gcc" "exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj.d"
   "C:/msys64/home/local_admin/Exercisim/exercises/Triangle/triangle.cpp" "exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj" "gcc" "exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj.d"
