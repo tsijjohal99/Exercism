@@ -97,35 +97,51 @@ exercises/CMakeFiles/trying.dir/ReverseString/reverseString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trying.dir/ReverseString/reverseString.cpp.s"
 	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/msys64/home/local_admin/Exercisim/exercises/ReverseString/reverseString.cpp -o CMakeFiles/trying.dir/ReverseString/reverseString.cpp.s
 
-exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj: exercises/CMakeFiles/trying.dir/flags.make
-exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj: ../exercises/SpaceAge/spaceAge.cpp
-exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj: exercises/CMakeFiles/trying.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/msys64/home/local_admin/Exercisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj"
-	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj -MF CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj.d -o CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj -c /C/msys64/home/local_admin/Exercisim/exercises/SpaceAge/spaceAge.cpp
+exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj: exercises/CMakeFiles/trying.dir/flags.make
+exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj: ../exercises/SpaceAge/space_age.cpp
+exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj: exercises/CMakeFiles/trying.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/msys64/home/local_admin/Exercisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj"
+	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj -MF CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj.d -o CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj -c /C/msys64/home/local_admin/Exercisim/exercises/SpaceAge/space_age.cpp
 
-exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.i"
-	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/msys64/home/local_admin/Exercisim/exercises/SpaceAge/spaceAge.cpp > CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.i
+exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trying.dir/SpaceAge/space_age.cpp.i"
+	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/msys64/home/local_admin/Exercisim/exercises/SpaceAge/space_age.cpp > CMakeFiles/trying.dir/SpaceAge/space_age.cpp.i
 
-exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.s"
-	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/msys64/home/local_admin/Exercisim/exercises/SpaceAge/spaceAge.cpp -o CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.s
+exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trying.dir/SpaceAge/space_age.cpp.s"
+	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/msys64/home/local_admin/Exercisim/exercises/SpaceAge/space_age.cpp -o CMakeFiles/trying.dir/SpaceAge/space_age.cpp.s
+
+exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj: exercises/CMakeFiles/trying.dir/flags.make
+exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj: ../exercises/Triangle/triangle.cpp
+exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj: exercises/CMakeFiles/trying.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/msys64/home/local_admin/Exercisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj"
+	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj -MF CMakeFiles/trying.dir/Triangle/triangle.cpp.obj.d -o CMakeFiles/trying.dir/Triangle/triangle.cpp.obj -c /C/msys64/home/local_admin/Exercisim/exercises/Triangle/triangle.cpp
+
+exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trying.dir/Triangle/triangle.cpp.i"
+	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/msys64/home/local_admin/Exercisim/exercises/Triangle/triangle.cpp > CMakeFiles/trying.dir/Triangle/triangle.cpp.i
+
+exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trying.dir/Triangle/triangle.cpp.s"
+	cd /C/msys64/home/local_admin/Exercisim/build/exercises && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/msys64/home/local_admin/Exercisim/exercises/Triangle/triangle.cpp -o CMakeFiles/trying.dir/Triangle/triangle.cpp.s
 
 # Object files for target trying
 trying_OBJECTS = \
 "CMakeFiles/trying.dir/Leap/leap.cpp.obj" \
 "CMakeFiles/trying.dir/ReverseString/reverseString.cpp.obj" \
-"CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj"
+"CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj" \
+"CMakeFiles/trying.dir/Triangle/triangle.cpp.obj"
 
 # External object files for target trying
 trying_EXTERNAL_OBJECTS =
 
 exercises/libtrying.a: exercises/CMakeFiles/trying.dir/Leap/leap.cpp.obj
 exercises/libtrying.a: exercises/CMakeFiles/trying.dir/ReverseString/reverseString.cpp.obj
-exercises/libtrying.a: exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj
+exercises/libtrying.a: exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj
+exercises/libtrying.a: exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj
 exercises/libtrying.a: exercises/CMakeFiles/trying.dir/build.make
 exercises/libtrying.a: exercises/CMakeFiles/trying.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/msys64/home/local_admin/Exercisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libtrying.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/msys64/home/local_admin/Exercisim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libtrying.a"
 	cd /C/msys64/home/local_admin/Exercisim/build/exercises && $(CMAKE_COMMAND) -P CMakeFiles/trying.dir/cmake_clean_target.cmake
 	cd /C/msys64/home/local_admin/Exercisim/build/exercises && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trying.dir/link.txt --verbose=$(VERBOSE)
 

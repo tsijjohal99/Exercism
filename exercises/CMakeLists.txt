@@ -4,8 +4,10 @@ add_library(
     Leap/leap.cpp
     ReverseString/reverseString.h
     ReverseString/reverseString.cpp
-    SpaceAge/spaceAge.h
-    SpaceAge/spaceAge.cpp
+    SpaceAge/space_age.h
+    SpaceAge/space_age.cpp
+    Triangle/triangle.h
+    Triangle/triangle.cpp
 )
 
 target_include_directories(trying PUBLIC "{CMAKE_CURRENT_SOURCE_DIR}")

@@ -178,29 +178,53 @@ ReverseString/reverseString.cpp.s:
 	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/ReverseString/reverseString.cpp.s
 .PHONY : ReverseString/reverseString.cpp.s
 
-SpaceAge/spaceAge.obj: SpaceAge/spaceAge.cpp.obj
-.PHONY : SpaceAge/spaceAge.obj
+SpaceAge/space_age.obj: SpaceAge/space_age.cpp.obj
+.PHONY : SpaceAge/space_age.obj
 
 # target to build an object file
-SpaceAge/spaceAge.cpp.obj:
-	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj
-.PHONY : SpaceAge/spaceAge.cpp.obj
+SpaceAge/space_age.cpp.obj:
+	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj
+.PHONY : SpaceAge/space_age.cpp.obj
 
-SpaceAge/spaceAge.i: SpaceAge/spaceAge.cpp.i
-.PHONY : SpaceAge/spaceAge.i
+SpaceAge/space_age.i: SpaceAge/space_age.cpp.i
+.PHONY : SpaceAge/space_age.i
 
 # target to preprocess a source file
-SpaceAge/spaceAge.cpp.i:
-	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.i
-.PHONY : SpaceAge/spaceAge.cpp.i
+SpaceAge/space_age.cpp.i:
+	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.i
+.PHONY : SpaceAge/space_age.cpp.i
 
-SpaceAge/spaceAge.s: SpaceAge/spaceAge.cpp.s
-.PHONY : SpaceAge/spaceAge.s
+SpaceAge/space_age.s: SpaceAge/space_age.cpp.s
+.PHONY : SpaceAge/space_age.s
 
 # target to generate assembly for a file
-SpaceAge/spaceAge.cpp.s:
-	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.s
-.PHONY : SpaceAge/spaceAge.cpp.s
+SpaceAge/space_age.cpp.s:
+	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/SpaceAge/space_age.cpp.s
+.PHONY : SpaceAge/space_age.cpp.s
+
+Triangle/triangle.obj: Triangle/triangle.cpp.obj
+.PHONY : Triangle/triangle.obj
+
+# target to build an object file
+Triangle/triangle.cpp.obj:
+	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj
+.PHONY : Triangle/triangle.cpp.obj
+
+Triangle/triangle.i: Triangle/triangle.cpp.i
+.PHONY : Triangle/triangle.i
+
+# target to preprocess a source file
+Triangle/triangle.cpp.i:
+	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.i
+.PHONY : Triangle/triangle.cpp.i
+
+Triangle/triangle.s: Triangle/triangle.cpp.s
+.PHONY : Triangle/triangle.s
+
+# target to generate assembly for a file
+Triangle/triangle.cpp.s:
+	cd /C/msys64/home/local_admin/Exercisim/build && $(MAKE) $(MAKESILENT) -f exercises/CMakeFiles/trying.dir/build.make exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.s
+.PHONY : Triangle/triangle.cpp.s
 
 # Help Target
 help:
@@ -217,9 +241,12 @@ help:
 	@echo "... ReverseString/reverseString.obj"
 	@echo "... ReverseString/reverseString.i"
 	@echo "... ReverseString/reverseString.s"
-	@echo "... SpaceAge/spaceAge.obj"
-	@echo "... SpaceAge/spaceAge.i"
-	@echo "... SpaceAge/spaceAge.s"
+	@echo "... SpaceAge/space_age.obj"
+	@echo "... SpaceAge/space_age.i"
+	@echo "... SpaceAge/space_age.s"
+	@echo "... Triangle/triangle.obj"
+	@echo "... Triangle/triangle.i"
+	@echo "... Triangle/triangle.s"
 .PHONY : help
 
 

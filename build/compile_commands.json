@@ -11,8 +11,13 @@
 },
 {
   "directory": "C:/msys64/home/local_admin/Exercisim/build/exercises",
-  "command": "/C/msys64/mingw64/bin/g++.exe  -I/C/msys64/home/local_admin/Exercisim/exercises/{CMAKE_CURRENT_SOURCE_DIR} -g -std=gnu++20 -o CMakeFiles/trying.dir/SpaceAge/spaceAge.cpp.obj -c /C/msys64/home/local_admin/Exercisim/exercises/SpaceAge/spaceAge.cpp",
-  "file": "C:/msys64/home/local_admin/Exercisim/exercises/SpaceAge/spaceAge.cpp"
+  "command": "/C/msys64/mingw64/bin/g++.exe  -I/C/msys64/home/local_admin/Exercisim/exercises/{CMAKE_CURRENT_SOURCE_DIR} -g -std=gnu++20 -o CMakeFiles/trying.dir/SpaceAge/space_age.cpp.obj -c /C/msys64/home/local_admin/Exercisim/exercises/SpaceAge/space_age.cpp",
+  "file": "C:/msys64/home/local_admin/Exercisim/exercises/SpaceAge/space_age.cpp"
+},
+{
+  "directory": "C:/msys64/home/local_admin/Exercisim/build/exercises",
+  "command": "/C/msys64/mingw64/bin/g++.exe  -I/C/msys64/home/local_admin/Exercisim/exercises/{CMAKE_CURRENT_SOURCE_DIR} -g -std=gnu++20 -o CMakeFiles/trying.dir/Triangle/triangle.cpp.obj -c /C/msys64/home/local_admin/Exercisim/exercises/Triangle/triangle.cpp",
+  "file": "C:/msys64/home/local_admin/Exercisim/exercises/Triangle/triangle.cpp"
 },
 {
   "directory": "C:/msys64/home/local_admin/Exercisim/build/src",

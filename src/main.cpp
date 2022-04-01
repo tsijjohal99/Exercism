@@ -1,6 +1,7 @@
 #include "../exercises/Leap/leap.h"
 #include "../exercises/ReverseString/reverseString.h"
-#include "../exercises/SpaceAge/spaceAge.h"
+#include "../exercises/SpaceAge/space_age.h"
+#include "../exercises/Triangle/triangle.h"
 #include <iostream>
 
 int main() {
@@ -35,10 +36,26 @@ int main() {
                 break;
             }
             case 3: {
-                long double ageSeconds;
+                long long ageSeconds;
                 std::cout << "Enter age in seconds" << std::endl;
                 std::cin >> ageSeconds;
-                spaceAge::otherYears(ageSeconds);
+                const space_age::space_age age(ageSeconds);
+                age.seconds();
+                age.on_mercury();
+		        age.on_venus();
+		        age.on_earth();
+		        age.on_mars();
+		        age.on_jupiter();
+		        age.on_saturn();
+		        age.on_uranus();
+		        age.on_neptune();
+                break;
+            }
+            case 4: {
+                double a, b, c;
+                std::cout << "Enter three sides of a triangle" << std::endl;
+                triangle::flavor type = triangle::kind(a,b,c);
+                std::cout << type << std::endl;
                 break;
             }
             case 0: {
