@@ -1,6 +1,6 @@
-src/CMakeFiles/Exercism.dir/main.cpp.obj: \
- C:/msys64/home/local_admin/Exercisim/src/main.cpp \
- C:/msys64/home/local_admin/Exercisim/exercises/Leap/leap.h \
+exercises/CMakeFiles/trying.dir/Triangle/triangle.cpp.obj: \
+ C:/msys64/home/local_admin/Exercisim/exercises/Triangle/triangle.cpp \
+ C:/msys64/home/local_admin/Exercisim/exercises/Triangle/triangle.h \
  C:/msys64/mingw64/include/c++/11.2.0/iostream \
  C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -139,7 +139,4 @@ src/CMakeFiles/Exercism.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/basic_ios.tcc \
  C:/msys64/mingw64/include/c++/11.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/11.2.0/istream \
- C:/msys64/mingw64/include/c++/11.2.0/bits/istream.tcc \
- C:/msys64/home/local_admin/Exercisim/exercises/ReverseString/reverseString.h \
- C:/msys64/home/local_admin/Exercisim/exercises/SpaceAge/space_age.h \
- C:/msys64/home/local_admin/Exercisim/exercises/Triangle/triangle.h
+ C:/msys64/mingw64/include/c++/11.2.0/bits/istream.tcc
