@@ -12,6 +12,8 @@ add_library(
     Grains/grains.cpp
     Raindrops/raindrops.h
     Raindrops/raindrops.cpp
+    Pangram/pangram.h
+    Pangram/pangram.cpp
 )
 
 target_include_directories(trying PUBLIC "{CMAKE_CURRENT_SOURCE_DIR}")
