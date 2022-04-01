@@ -10,6 +10,8 @@ add_library(
     Triangle/triangle.cpp
     Grains/grains.h
     Grains/grains.cpp
+    Raindrops/raindrops.h
+    Raindrops/raindrops.cpp
 )
 
 target_include_directories(trying PUBLIC "{CMAKE_CURRENT_SOURCE_DIR}")
